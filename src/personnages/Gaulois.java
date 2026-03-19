@@ -1,5 +1,7 @@
 package personnages;
 
+import village_gaulois.Village;
+
 public class Gaulois {
 	private String nom;
 	private int force;
@@ -60,5 +62,13 @@ public class Gaulois {
 
 	public void setEffetPotion(int effetPotion) {
 		this.effetPotion = effetPotion;
+	}
+	
+	public void sePresenter() {
+		
+	}
+
+	public void setVillage(Village village) {
+		
 	}
 }
