@@ -21,7 +21,6 @@ public class Village {
 	    gaulois.setVillage(this);
 	    nbVillageois++;
 
-
 	}
 	
 	public void trouverVillageois (Gaulois numVillageois) {
