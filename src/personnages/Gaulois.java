@@ -11,6 +11,9 @@ public class Gaulois {
 		this.setForce(force);
 
 	}
+	public String toString() {
+	    return nom;
+	}
 	private int effetPotion = 1;
 	public String getNom() {
 		return nom;
