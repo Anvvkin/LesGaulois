@@ -7,20 +7,22 @@ public class Gaulois {
 
 	private String nom;
 //    private int force;
-	private int force, nb_trophees;
+	private int force;
+	private int nbtrophees;
 	private Equipement trophees[] = new Equipement[100];
 	private Village village;
 	private int effetPotion = 1;
 
 	public static void main(String[] args) {
-		Gaulois Asterix = new Gaulois("Asterix", 8);
-		Gaulois Obelix = new Gaulois("Obelix", 16);
+        Gaulois Asterix = new Gaulois("Asterix", 8, );
+        Gaulois Obelix = new Gaulois("Obelix", 16,);
 		System.out.println(Asterix.getNom());
 	}
 
-	public Gaulois(String nom, int force) {
+	public Gaulois(String nom, int force, int nbtrophees) {
 		this.nom = nom;
-		this.setForce(force);
+        this.nbtrophees = nbtrophees;
+        this.setForce(force);
 	}
 
 	public String getNom() {

@@ -4,9 +4,9 @@ import objets.Equipement;
 
 public class Romain {
 
-	private String nom;
+	private final String nom;
 	private int force;
-	private Equipement[] equipements = new Equipement[2];
+	private final Equipement[] equipements = new Equipement[2];
 	private int nbEquipement = 0;
 
 	public static void main(String[] args) {

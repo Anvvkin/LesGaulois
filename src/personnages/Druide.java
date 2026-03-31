@@ -3,9 +3,9 @@ package personnages;
 import objets.Chaudron;
 
 public class Druide {
-	private String nom;
-	private int force;
-	private Chaudron chaudron = new Chaudron();
+	private final String nom;
+	private final int force;
+	private final Chaudron chaudron = new Chaudron();
 
 	public Druide(String nom, int force) {
 		this.nom = nom;

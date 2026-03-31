@@ -11,12 +11,9 @@ public class Chaudron {
 	}
 
 	public boolean resterPotion() {
-		if (quantitePotion <= 0) {
-			return false;
-		}
-		return true;
+        return quantitePotion > 0;
 
-	}
+    }
 
 	public void prendreLouche() {
 		if (quantitePotion <= 0) {
@@ -24,5 +21,13 @@ public class Chaudron {
 		} else {
 			quantitePotion -= 1;
 		}
+	}
+
+	public int getForcePotion() {
+		return forcePotion;
+	}
+
+	public void setForcePotion(int forcePotion) {
+		this.forcePotion = forcePotion;
 	}
 }

@@ -16,13 +16,13 @@ public class Village {
 
 	public static void main(String[] args) {
 
-		Gaulois abraracourcix = new Gaulois("Abraracourcix", 6);
+		Gaulois abraracourcix = new Gaulois("Abraracourcix", 6, );
 
 		Village village = new Village("Village des Irréductibles", abraracourcix);
 
 		village.trouverVillageois(30);
 
-		Gaulois asterix = new Gaulois("Astérix", 8);
+		Gaulois asterix = new Gaulois("Astérix", 8, );
 		village.ajouterVillageois(asterix);
 
 		Gaulois gaulois = village.trouverVillageois(1);
@@ -31,10 +31,10 @@ public class Village {
 		gaulois = village.trouverVillageois(2);
 		System.out.println(gaulois);
 
-		Gaulois obelix = new Gaulois("Obélix", 25);
+		Gaulois obelix = new Gaulois("Obélix", 25, );
 		village.ajouterVillageois(obelix);
 
-		Gaulois doublepolemix = new Gaulois("Doublepolémix", 4);
+		Gaulois doublepolemix = new Gaulois("Doublepolémix", 4, );
 
 		village.afficherVillageois();
 
